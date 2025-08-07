@@ -15,10 +15,9 @@ Fields: Sales, Profit, Country, Segment, Product, Discount, Month
 - Deleted any fully blank rows and columns to ensure clean structure.
 
   ✅ 2. Convert Currency Columns to Numbers
-- Removed currency symbols (like `$`) from `Sales` and `Profit` columns.
-- Used Excel formula:
-  ```excel
-  =VALUE(SUBSTITUTE(A2, "$", ""))
+  Removed currency symbols (like `$`) from `Sales` and `Profit` columns.
+  Used Excel formula:
+    =VALUE(SUBSTITUTE(A2, "$", ""))
 
 ✅ 3. Fill Missing Values
 Filled missing values in Discount column with 0 using:
